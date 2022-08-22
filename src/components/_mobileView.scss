@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+    
+     *{
+        width: fit-content;
+     }
+     body{
+        background-repeat: no-repeat;
+     }
+     .article-box{
+        @include flexbox;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .home, .article, .create, .update{
+        margin: 0 30px;
+    } 
+    
+  }
